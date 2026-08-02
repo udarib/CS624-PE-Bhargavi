@@ -1,0 +1,5 @@
+The program starts with a hardcoded array of profile data, each containing user details such as name, occupation, description, and a profile image. The key attribute is showThumbnail, which determines whether the profile card is displayed in a minimized (thumbnail) or expanded format.
+
+Using React Native and the Flexbox layout system, the program dynamically maps through the profile data to render six interactive profile cards. Each card uses the TouchableHighlight component to toggle between expanded and thumbnail views by updating the showThumbnail property in the component’s state. The layout employs flexDirection: 'row' and flexWrap: 'wrap' to align cards in a grid structure across the screen.
+
+The result is a responsive UI showing six profile cards. Clicking on any card toggles its scale—shrinking it to a thumbnail or expanding it with full details—providing a clean, interactive gallery-style display.
